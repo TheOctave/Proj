@@ -83,7 +83,7 @@ public class SVM {
 	
 	public static int delta (int y1, int y2) {
 		
-		return (y1 == y2) ? 0 : 1;
+		return (y1 == y2) ? 1 : 0;
 	}
 	
 	public double[] featureTransform (double[] x, int label) {
