@@ -14,6 +14,16 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+
+
+# ignore Java *.class files
+*.class
+
+# eclipse settings
+.settings
+.classpath
+.project
+
 # =========================
 # Operating System Files
 # =========================

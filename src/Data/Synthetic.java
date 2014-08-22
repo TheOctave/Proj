@@ -24,13 +24,13 @@ public class Synthetic {
 			points[i][1] = rand.nextDouble() * 2.0 - 1;
 			
 			if (points[i][0] >= 0 && points[i][1] >= 0)
-				labels[i] = 1;
+				labels[i] = 0;
 			else if (points[i][0] >= 0)
-				labels[i] = 2;
+				labels[i] = 1;
 			else if (points[i][1] >= 0)
-				labels[i] = 3;
+				labels[i] = 2;
 			else
-				labels[i] = 4;
+				labels[i] = 3;
 		}
 	}
 	
